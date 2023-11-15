@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UberEats</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="header_box_logo_btn">
+                        <a href="#"><img class="header_logo" src="img/logo.svg"></a>
+                        <span class="header_box_btn_icon">
+                            <button class="header_btn">Заказать</button>
+                            <a class="header_link_icon" href="#"><img class="header_icon" src="img/basket.svg"></a>
+                        </span> 
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </header>
+    
+    <section class="section_1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <form class="section_1_form"><input class="section_1_text_form" type="text" name="text" id="text" placeholder="Поиск вкусной пиццы"></form>
+                </div>
+                <div class="col-xs-12">
+                    <h1 class="section_1_h1">Главное меню : пиццы</h1>
+                </div>
+
+                <div class="col-xs-6 col-md-6 col-lg-4">
+                    <div class="section_1_card_box">
+                        <a class="index_2_way_1" href="#pizza1"><div class="section_1_div_card_img"><img class="section_1_card_img" src="img/picca-margarita1.jpg"></div>
+                            <div class="section_1_card_name">Пицца «Маргарита»</div>
+                            <div class="section_1_card_description">340 ₽ • томатный или сливочный соус, помидоры и много сыра Моцарелла</div>
+                            <div class="section_1_card_time">25 - 35 мин</div></a>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-6 col-lg-4">
+                    <div class="section_1_card_box">
+                        <a class="index_2_way_2" href="#pizza2"><div class="section_1_div_card_img"><img class="section_1_card_img" src="img/picca-siciliska1.jpg"></div>
+                            <div class="section_1_card_name">Пицца «Сицилийская»</div>
+                            <div class="section_1_card_description">509 ₽ • сыр Пекорино, анчоусы и много томатов</div>
+                            <div class="section_1_card_time">40 - 50 мин</div></a>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-6 col-lg-4">
+                    <div class="section_1_card_box">
+                        <a class="index_2_way_3" href="#pizza3"><div class="section_1_div_card_img"><img class="section_1_card_img" src="img/picca-diabola1.jpg"></div>
+                            <div class="section_1_card_name">Пицца «Дьябола»</div>
+                            <div class="section_1_card_description">519 ₽ • колбаски пепперони, бекон, болгарский перец, сыр Моцарелла и соус Ширачи</div>
+                            <div class="section_1_card_time">35 - 45 мин</div></a>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-6 col-lg-4">
+                    <div class="section_1_card_box">
+                        <a class="index_2_way_4" href="#pizza4"><div class="section_1_div_card_img"><img class="section_1_card_img" src="img/picca-four-cheeze1.jpg"></div>
+                            <div class="section_1_card_name">Пицца «Четыре сыра»</div>
+                            <div class="section_1_card_description">549 ₽ • сыры Моцарелла, Пармезан, Дор-блю и Фонтина</div>
+                            <div class="section_1_card_time">30 - 40 мин</div></a>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-6 col-lg-4">
+                    <div class="section_1_card_box">
+                        <a class="index_2_way_5" href="#pizza5"><div class="section_1_div_card_img"><img class="section_1_card_img" src="img/picca-fish1.jpg"></div>
+                            <div class="section_1_card_name">Пицца с морепродуктами</div>
+                            <div class="section_1_card_description">799 ₽ • кальмары, креветки, мидии и осьминоги в сочетании со сливочным соусом, сыром моцарелла и зеленью</div>
+                            <div class="section_1_card_time">40 - 50 мин</div></a>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-6 col-lg-4">
+                    <div class="section_1_card_box">
+                        <a class="index_2_way_6" href="#pizza6"><div class="section_1_div_card_img"><img class="section_1_card_img" src="img/picca-old1.jpg"></div>
+                            <div class="section_1_card_name">Пицца «Неаполитанская»</div>
+                            <div class="section_1_card_description">590 ₽ • анчоусы, свежие томаты, несколько видов сыра и базилик</div>
+                            <div class="section_1_card_time">30 - 40 мин</div></a>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-6 col-lg-4">
+                    <div class="section_1_card_box">
+                        <a class="index_2_way_7" href="#pizza7"><div class="section_1_div_card_img"><img class="section_1_card_img" src="img/picca-calcone1.jpg"></div>
+                            <div class="section_1_card_name">Пицца «Кальцоне»</div>
+                            <div class="section_1_card_description">590 ₽ • сыр Моцарелла, куриная грудка, маслины, ветчина, свежие томаты, сливочный соус, зелень</div>
+                            <div class="section_1_card_time">35 - 45 мин</div></a>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-6 col-lg-4">
+                    <div class="section_1_card_box">
+                        <a class="index_2_way_8" href="#pizza8"><div class="section_1_div_card_img"><img class="section_1_card_img" src="img/picca-kaprichioza1.jpg"></div>
+                            <div class="section_1_card_name">Пицца «Капричиоза»</div>
+                            <div class="section_1_card_description">380 ₽ • шампиньоны, маринованные помидоры черри, оливки, ветчина и два вида сыра: Пармезан и Рикотта</div>
+                            <div class="section_1_card_time">25 - 35 мин</div></a>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-6 col-lg-4">
+                    <div class="section_1_card_box">
+                        <a class="index_2_way_9" href="#pizza9"><div class="section_1_div_card_img"><img class="section_1_card_img" src="img/picca-gavaiska1.jpg"></div>
+                            <div class="section_1_card_name">Пицца «Гавайская»</div>
+                            <div class="section_1_card_description">500 ₽ • ананасы, сливочный соус, ветчина, красный лук и сыр моцарелла</div>
+                            <div class="section_1_card_time">30 - 40 мин</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_2">
+        <div class="section_2_block_header">Клик по пицце = Запомнить выбор</div>
+        <div class="section_2_block_header">Кликнуть после = Забыть выбор</div>
+
+        <div class="section_2_main_cont_1" id="pizza1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-7 col-lg-5">
+                        <div class="section_2_box_card_img">
+                            <img class="section_2_card_img" src="img/picca-margarita1.jpg">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-5 col-lg-7">
+                        <div class="section_2_box_h1_btn">
+                            <h1 class="section_2_h1">Пицца «Маргарита»</h1>
+                            <div class="section_2_box_btn_span">
+                                <button class="section_2_btn">25 - 35 мин</button>
+                                <span class="section_2_span">340 ₽ • томатный или сливочный соус, помидоры и много сыра Моцарелла</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section_2_main_cont_2" id="pizza2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-7 col-lg-5">
+                        <div class="section_2_box_card_img">
+                            <img class="section_2_card_img" src="img/picca-siciliska1.jpg">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-5 col-lg-7">
+                        <div class="section_2_box_h1_btn">
+                            <h1 class="section_2_h1">Пицца «Сицилийская»</h1>
+                            <div class="section_2_box_btn_span">
+                                <button class="section_2_btn">40 - 50 мин</button>
+                                <span class="section_2_span">509 ₽ • сыр Пекорино, анчоусы и много томатов</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section_2_main_cont_3" id="pizza3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-7 col-lg-5">
+                        <div class="section_2_box_card_img">
+                            <img class="section_2_card_img" src="img/picca-diabola1.jpg">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-5 col-lg-7">
+                        <div class="section_2_box_h1_btn">
+                            <h1 class="section_2_h1">Пицца «Дьябола»</h1>
+                            <div class="section_2_box_btn_span">
+                                <button class="section_2_btn">35 - 45 мин</button>
+                                <span class="section_2_span">519 ₽ • колбаски пепперони, бекон, болгарский перец, сыр Моцарелла и соус Ширачи</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section_2_main_cont_4" id="pizza4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-7 col-lg-5">
+                        <div class="section_2_box_card_img">
+                            <img class="section_2_card_img" src="img/picca-four-cheeze1.jpg">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-5 col-lg-7">
+                        <div class="section_2_box_h1_btn">
+                            <h1 class="section_2_h1">Пицца «Четыре сыра»</h1>
+                            <div class="section_2_box_btn_span">
+                                <button class="section_2_btn">30 - 40 мин</button>
+                                <span class="section_2_span">549 ₽ • сыры Моцарелла, Пармезан, Дор-блю и Фонтина</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section_2_main_cont_5" id="pizza5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-7 col-lg-5">
+                        <div class="section_2_box_card_img">
+                            <img class="section_2_card_img" src="img/picca-fish1.jpg">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-5 col-lg-7">
+                        <div class="section_2_box_h1_btn">
+                            <h1 class="section_2_h1">Пицца с морепродуктами</h1>
+                            <div class="section_2_box_btn_span">
+                                <button class="section_2_btn">40 - 50 мин</button>
+                                <span class="section_2_span">799 ₽ • кальмары, креветки, мидии и осьминоги в сочетании со сливочным соусом, сыром моцарелла и зеленью</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section_2_main_cont_6" id="pizza6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-7 col-lg-5">
+                        <div class="section_2_box_card_img">
+                            <img class="section_2_card_img" src="img/picca-old1.jpg">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-5 col-lg-7">
+                        <div class="section_2_box_h1_btn">
+                            <h1 class="section_2_h1">Пицца «Неаполитанская»</h1>
+                            <div class="section_2_box_btn_span">
+                                <button class="section_2_btn">30 - 40 мин</button>
+                                <span class="section_2_span">590 ₽ • анчоусы, свежие томаты, несколько видов сыра и базилик</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section_2_main_cont_7" id="pizza7">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-7 col-lg-5">
+                        <div class="section_2_box_card_img">
+                            <img class="section_2_card_img" src="img/picca-calcone1.jpg">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-5 col-lg-7">
+                        <div class="section_2_box_h1_btn">
+                            <h1 class="section_2_h1">Пицца «Кальцоне»</h1>
+                            <div class="section_2_box_btn_span">
+                                <button class="section_2_btn">35 - 45 мин</button>
+                                <span class="section_2_span">590 ₽ • сыр Моцарелла, куриная грудка, маслины, ветчина, свежие томаты, сливочный соус, зелень</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section_2_main_cont_8" id="pizza8">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-7 col-lg-5">
+                        <div class="section_2_box_card_img">
+                            <img class="section_2_card_img" src="img/picca-kaprichioza1.jpg">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-5 col-lg-7">
+                        <div class="section_2_box_h1_btn">
+                            <h1 class="section_2_h1">Пицца «Капричиоза»</h1>
+                            <div class="section_2_box_btn_span">
+                                <button class="section_2_btn">25 - 35 мин</button>
+                                <span class="section_2_span">380 ₽ • шампиньоны, маринованные помидоры черри, оливки, ветчина и два вида сыра: Пармезан и Рикотта</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section_2_main_cont_9" id="pizza9">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-7 col-lg-5">
+                        <div class="section_2_box_card_img">
+                            <img class="section_2_card_img" src="img/picca-gavaiska1.jpg">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-5 col-lg-7">
+                        <div class="section_2_box_h1_btn">
+                            <h1 class="section_2_h1">Пицца «Гавайская»</h1>
+                            <div class="section_2_box_btn_span">
+                                <button class="section_2_btn">30 - 40 мин</button>
+                                <span class="section_2_span">500 ₽ • ананасы, сливочный соус, ветчина, красный лук и сыр моцарелла</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_3">
+        <hr class="section_3_hr">
+        <div class="container">
+            <h2 class="section_3_h2">Напитки безалкогольные</h2>
+            <div class="row">
+                <div class="col-xs-12 col-md-12 col-lg-6">
+                    <div class="section_3_box_card">
+                        <div class="section_3_box_spans">
+                            <div>
+                                <span class="section_3_span_1">Минеральная вода</span>
+                                <span class="section_3_span_2">0.5 л</span>
+                            </div>
+                            <span>150 ₽</span>
+                        </div>
+                        <img class="section_3_img" src="img/mineral_water.jpg">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-12 col-lg-6">
+                    <div class="section_3_box_card">
+                        <div class="section_3_box_spans">
+                            <div>
+                                <span class="section_3_span_1">Настоящий фруктовый сок</span>
+                                <span class="section_3_span_2">0.5 л</span>
+                            </div>
+                            <span>170 ₽</span>
+                        </div>
+                        <img class="section_3_img" src="img/juice.jpg">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-12 col-lg-6">
+                    <div class="section_3_box_card">
+                        <div class="section_3_box_spans">
+                            <div>
+                                <span class="section_3_span_1">Сладкая газировка</span>
+                                <span class="section_3_span_2">0.5 л</span>
+                            </div>
+                            <span>130 ₽</span>
+                        </div>
+                        <img class="section_3_img" src="img/pepsi.jpg">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-12 col-lg-6">
+                    <div class="section_3_box_card">
+                        <div class="section_3_box_spans">
+                            <div>
+                                <span class="section_3_span_1">Сладкий чай</span>
+                                <span class="section_3_span_2">0.5 л</span>
+                            </div>
+                            <span>150 ₽</span>
+                        </div>
+                        <img class="section_3_img" src="img/lipton.jpg">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-12 col-lg-6">
+                    <div class="section_3_box_card">
+                        <div class="section_3_box_spans">
+                            <div>
+                                <span class="section_3_span_1">Квас</span>
+                                <span class="section_3_span_2">0.5 л</span>
+                            </div>
+                            <span>200 ₽</span>
+                        </div>
+                        <img class="section_3_img" src="img/kvas.jpg">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-12 col-lg-6">
+                    <div class="section_3_box_card">
+                        <div class="section_3_box_spans">
+                            <div>
+                                <span class="section_3_span_1">Прохладная вода</span>
+                                <span class="section_3_span_2">0.5 л</span>
+                            </div>
+                            <span>130 ₽</span>
+                        </div>
+                        <img class="section_3_img" src="img/water.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <img class="footer_logo" src="img/white-logo.svg">
+                    <hr class="footer_hr">
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                    <select class="footer_select_form">
+                        <option value="ru">Русский</option>
+                        <option value="en">English</option>
+                    </select>
+                    <a href="#"><img class="footer_link_img" src="img/social.svg"></a>
+                </div>
+
+                <div class="col-xs-12 col-md-1"></div>
+                
+                <div class="col-xs-12 col-md-4">
+                    <div class="footer_box_links">
+                        <span class="footer_link"><a href="#">Об UberEats</a></span>
+                        <span class="footer_link"><a href="#">Станьте партнёром по доставке</a></span>
+                        <span class="footer_link"><a href="#">Станьте парнёром-рестораном</a></span>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="footer_box_links">
+                        <span class="footer_link"><a href="#">Все города</a></span>
+                        <span class="footer_link"><a href="#">Цены</a></span>
+                        <span class="footer_link"><a href="#">Помощь</a></span>
+                        <span class="footer_link"><a href="#">FAQs</a></span>
+                    </div>
+                </div>
+
+                <div class="col-xs-12">
+                    <hr class="footer_hr">
+                    <div class="footer_box_apps">
+                        <a href="#"><img class="footer_app" src="img/app_store.svg"></a>
+                        <a href="#"><img class="footer_app" src="img/google_play.svg"></a>
+                    </div>
+                    <hr class="footer_hr">
+                    <div class="footer_box_document_links">
+                        <span class="footer_document_link"><a href="#">© 2017 Uber Technologies Inc.</a></span>
+                        <span class="footer_document_link"><a href="#">Обработка персональных данных</a></span>
+                        <span class="footer_document_link"><a href="#">Пользовательское соглашение</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_box_btn">
+            <a href="#"><img class="footer_btn" src="img/btn-up.svg"></a>
+        </div>
+    </footer>
+    <div class="outside_modal_window outside_modal_window__place">
+        <div class="container_modal_window">
+            <div class="modal_window">
+                <p class="modal_window_text_1">Свяжитесь с нами!</p>
+                <div class="modal_window_box_text_btn">
+                    <p>+7 (888) 123 45 67</p>
+                    <button class="modal_window_btn">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
